@@ -1,0 +1,16 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "Counts" (
+	"org"	TEXT,
+	"count"	INTEGER
+);
+INSERT INTO "Counts" VALUES ('mmmay@indiana.edu',133);
+INSERT INTO "Counts" VALUES ('aaronz@vt.edu',104);
+INSERT INTO "Counts" VALUES ('zqian@umich.edu',93);
+INSERT INTO "Counts" VALUES ('chmaurer@iupui.edu',64);
+INSERT INTO "Counts" VALUES ('dlhaines@umich.edu',60);
+INSERT INTO "Counts" VALUES ('rjlowe@iupui.edu',57);
+INSERT INTO "Counts" VALUES ('ian@caret.cam.ac.uk',55);
+INSERT INTO "Counts" VALUES ('ajpoland@iupui.edu',44);
+INSERT INTO "Counts" VALUES ('jimeng@umich.edu',41);
+INSERT INTO "Counts" VALUES ('cwen@iupui.edu',26);
+COMMIT;
